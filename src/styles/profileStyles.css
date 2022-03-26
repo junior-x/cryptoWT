@@ -1,0 +1,152 @@
+.div {
+  height: 100%;
+  background-color: #23202e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divProfile {
+  background-color: #1a1626;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divProfileItems {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-vertical: 30px;
+}
+
+.divInput {
+  width: 81%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.inputLogin {
+  height: 51px;
+  border-width: 1px;
+  border-color: grey;
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.inputPassword {
+  height: 51px;
+  border-width: 1px;
+  border-color: grey;
+  color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+}
+
+.buttonEntrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #604e99;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 81%;
+  height: 45px;
+  border-radius: 12px;
+}
+
+.buttonOutline {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 81%;
+  height: 45px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.subtitle {
+  color: grey;
+}
+
+.divider {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  height: 1;
+  color: grey;
+}
+
+.icon {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  border-color: grey;
+  border-width: 1px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.iconCheck {
+  height: 30px;
+  width: 30px;
+  border-radius: 90px;
+  border-color: lightgrey;
+  border-width: 1px;
+}
+
+.profilePost {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.buttonPost {
+  margin: 9px;
+  width: 177px;
+  height: 177px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: #fff;
+}
+/*# sourceMappingURL=profileStyles.css.map */

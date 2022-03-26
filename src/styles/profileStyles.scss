@@ -1,0 +1,149 @@
+.div {
+  height: 100%;
+  background-color: #23202e;
+  align-items: center;
+  justify-content: center;
+}
+
+.divProfile {
+  background-color: #1a1626;
+  width: 100%;
+  align-items: center;
+}
+
+.divProfileItems {
+    align-items: center;
+    justify-content: center;   
+    margin-top: 30px;
+}
+
+.divInput {
+  width: 81%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.inputLogin {
+  height: 51px;
+  border-width: 1px;
+  border-color: grey;
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.inputPassword {
+  height: 51px;
+  border-width: 1px;
+  border-color: grey;
+  color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+}
+
+.buttonEntrar {
+  display: flex;
+  background-color: #604e99;
+  align-items: center;
+  justify-content: center;
+  width: 81%;
+  height: 45px;
+  border-radius: 12px;
+}
+
+.buttonOutline {
+  align-items: center;
+  justify-content: center;
+  width: 81%;
+  height: 45px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.subtitle {
+  color: #8b73c7;
+}
+
+.divider {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  height: 1;
+  color: grey;
+}
+
+.icon {
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  border-color: grey;
+  border-width: 1px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.iconCheck {
+  height: 30px;
+  width: 30px;
+  border-radius: 90px;
+  border-color: #72c3db;
+  border-width: 1px;
+}
+
+.profilePost {
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.buttonPost {
+  margin: 9px;
+  width: 177px;
+  height: 177px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.divFilter {
+  flex-direction: row;
+  margin-vertical:15px;
+}
+
+.divFilterIcon2 {
+  margin: 9px;
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+.buttonFilter1 {
+  margin: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+.buttonFilter2 {
+  margin: 9px;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background-color: rgba(200, 200, 200, 0.3);
+  flex-wrap: wrap;
+}
+

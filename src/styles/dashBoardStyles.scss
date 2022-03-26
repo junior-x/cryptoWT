@@ -1,0 +1,146 @@
+.div {
+    height: 100%;
+    background-color:  #23202e;
+    align-items: center;
+    justify-content: center;
+}
+
+.divInput {
+    width: 81%;
+    margin-top: 36px;
+}
+
+.inputSearch {
+    height: 51px;
+    border-width: 1px;
+    border-color: grey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.buttonEntrar {
+    display: flex;
+    background-color: #604e99;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 45px; 
+    border-radius: 30px;
+}
+
+.buttonFilter {
+    display: flex;
+    background-color: #604e99;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 45px; 
+    border-radius: 30px;
+    margin-right: 9px;
+}
+
+.searchButtons {
+    flex-direction: row;
+    margin-top: 18px;
+}
+
+.buttonPost {
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 310px;
+    height: 310px; 
+    border-radius: 45px;
+    border-width: 1px;
+    border-color: #fff;
+    position: absolute;
+}
+
+.imagePost {
+    width: 310px;
+    height: 310px;
+    border-radius: 45px;
+    overflow: hidden;
+    
+}
+
+.buttonPostInside {
+    width: 100%;
+    height: 100px; 
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: rgba(221, 186, 253, 0.205);
+    // border-width: 1px;
+    // border-color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userIcon { 
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.userIconText { 
+    margin-horizontal: 18px;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #FAFAFA;
+}
+
+.subtitle {
+    color: grey;
+}
+
+.divider {
+    margin-top: 12px;
+    color: grey;
+    flex: 1;
+}
+
+.dividerImage {
+    width: 310px;
+    height: 310px;
+    border-radius: 45px;
+}
+
+.topBar {
+    width: 81%;
+    margin-top: 45px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconDashboard {
+    height: 45px;
+    width: 45px;
+    border-radius: 90px;
+    // border-color: grey;
+    // border-width: 1px;
+}
+
+.iconDashboardImage {
+    justify-content: flex-start;
+    border-radius: 90px;
+    height: 45px;
+    width: 45px;
+}
+
+.iconBurger {
+    height: 45px;
+    width: 45px;
+    border-radius: 9px;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.value {
+    margin-horizontal: 30px;
+}
